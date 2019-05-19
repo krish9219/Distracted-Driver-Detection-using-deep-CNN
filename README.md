@@ -32,7 +32,7 @@ c8: hair and makeup
 
 c9: talking to passenger
 
-![center](./distraction.gif)
+![center](./Images/distraction.gif)
 
 ### Initial thoughts on solution
 
@@ -67,11 +67,11 @@ Finally build model more robustly by adding Batch normalisation to each Convolut
 
 ***CNN Architecture***
 
-![left](./adv_model.png)
+![left](./Images/adv_model.png)
 
 ***Deep CNN Architecture***
 
-![center](./deep_model.png)
+![center](./Images/deep_model.png)
 
 ### Performance
 
@@ -87,31 +87,31 @@ On unseen data it predicted with accuracy of 99.75% with CNN using Batch Normali
 
 ***Model loss perfomance of Advance CNN***
 
-![left](./model_loss.png)
+![left](./Images/model_loss.png)
 
 ***Model Accuracy performance of Advance CNN***
 
- ![right](./model_accu.png)
+ ![right](./Images/model_accu.png)
 
 ***Model loss perfomance of Advance CNN with batch normalisation***
 
-![left](./deep_model_loss.png)
+![left](./Images/deep_model_loss.png)
 
 ***Model Accuracy perfomance of Advance CNN with batch normalisation***
 
-![right](./deep_model_acc.png)
+![right](./Images/deep_model_acc.png)
 
 ## Notes
 
 ***Batch Normalisation*** = Batch Normalization is used to normalize the input layer as well as hidden layers by adjusting mean and scaling of the activations. Because of this normalizing effect with additional layer in deep neural networks, the network can use higher learning rate without vanishing or exploding gradients
 
-![center](./Batch_normalization.png)
+![center](./Images/Batch_normalization.png)
 
                                                     *graph form the Internet*
 
 ***Relu Activation*** = ReLU stands for rectified linear unit, and is a type of activation function. Mathematically, it is defined as y = max(0, x). Visually, it looks like the following:
 
-![center](./relu.png)
+![center](./Images/relu.png)
 
            * source link : https://medium.com/tinymind/a-practical-guide-to-relu-b83ca804f1f7 *
 
